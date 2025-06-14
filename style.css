@@ -3,13 +3,11 @@ body{
 }
 
 .navbar-brand, .nav-link, .username{
-    color: #fff !important;
+    color: #787878 !important;
 }
 
 .hero-section{
-    background-color: #b30000;
-    color: white;
-    padding: 60px 0;
+    padding-top: 2rem;
     text-align: center;
 }
 .username{
@@ -17,25 +15,55 @@ body{
 }
 .login-container{
     height: 100vh;
-    margin: 0;
-    background-color: #0a0f1a;
+    background-color: rgb(25, 30, 72);
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 2rem;
 }
-.login-box{
-    background-color: #121933;
-    padding: 2.5rem;
-    border-radius: 1rem;
-    width: 100%;
-    max-width: 400px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+.separator{
+    border-left: 1px solid #999;
+    height: 100%;
 }
 .form-label{
+    color: #ccc;
+}
+.btn-red{
+    background-color: #b30000;
     color: white;
+    border: none;
+}
+btn-red:hover{
+    background-color: #8c0000;
 }
 .btn-login{
     background-color: #8c0000;
 }
-    
+.search{
+    margin: 3rem 3.5rem;
+}
+.top-trends{
+    margin-bottom: 1rem;
+}
+.admin-container{
+    margin-top: 4.5rem;
+    background-color: #0a0f1a;
+    padding: 2.7rem;
+    color: white;
+}
+.form-wrapper{
+    background-color: #121933;
+    padding: 2.5rem;
+    border-radius: 1rem;
+    max-width: 700px;
+    margin: auto;
+    box-shadow: 0 0 20px rega(0, 0, 0, 0.4);
+}
+.btn-custom{
+    background-color: #b30000;
+    border: none;
+}
+.btn-custom:hover{
+    background-color: #8c0000;
+}

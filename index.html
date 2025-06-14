@@ -73,8 +73,24 @@
                 </div>
             </section>
             -->
-           
-            <section>
+            <section class="search">
+                <div class="row mb-4">
+                    <div class="col-md-6 mx-auto mb-2">
+                        <input type="text" id="searchInput" class="form-control" placeholder="Search by title or keyword...">
+                    </div>
+                    <div class="col-md-4 mx-auto">
+                        <select id="categorySelect" class="form-select">
+                            <option value="all">Filter by category</option>
+                            <option value="AI">AI</option>
+                            <option value="Cheapest Gadgets">Cheap Gadgets</option>
+                            <option value="Apple Inc">Apple Inc</option>
+                        </select>
+                    </div>
+                </div>
+
+            </section>
+            <section class="topTrend">
+                <h3 class="top-trends">Top Trends</h3>
                 <div class="row" id="postContainer"></div>
             </section>
         </main>
