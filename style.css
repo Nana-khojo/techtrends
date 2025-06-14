@@ -1,0 +1,41 @@
+body{
+    background: #fff; 
+}
+
+.navbar-brand, .nav-link, .username{
+    color: #fff !important;
+}
+
+.hero-section{
+    background-color: #b30000;
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+.username{
+    margin-left: auto;
+}
+.login-container{
+    height: 100vh;
+    margin: 0;
+    background-color: #0a0f1a;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-box{
+    background-color: #121933;
+    padding: 2.5rem;
+    border-radius: 1rem;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+.form-label{
+    color: white;
+}
+.btn-login{
+    background-color: #8c0000;
+}
+    
